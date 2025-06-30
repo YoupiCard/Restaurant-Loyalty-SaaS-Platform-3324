@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import * as FiIcons from 'react-icons/fi'
 import StatCard from '../components/ui/StatCard'
+import StatCard from '../components/ui/StatCard'
+console.log("👉 StatCard importé ?", StatCard)
 import { useAuth } from '../contexts/AuthContext'
 import { useLanguage } from '../contexts/LanguageContext'
 import { useTranslation } from '../lib/i18n'
